@@ -18,6 +18,11 @@ def hello():
     return "Hello!"
 
 
+    @app.route("/george")
+def hellogeorge():
+    return "Hello george!"
+
+
 # Add a new user
 @app.route('/users', methods=['POST'])
 def add_user():
